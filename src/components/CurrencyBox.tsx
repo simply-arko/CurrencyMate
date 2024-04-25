@@ -40,7 +40,6 @@ const CurrencyBox: React.FC<componentProps> = ({
                     disabled={isDisabled}
                     type="number"
                     placeholder="Amount"
-                    defaultValue={amount}
                     value={amount}
                     onChange={(e) => {
                         setAmount(Number(e.target.value));
